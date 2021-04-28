@@ -10,8 +10,8 @@ for (var i = 0; i < surnameList.length; i++) {
     //3. stampa la lista ordinata alfabeticamente
     surnameList.sort();
 }
-var position = surnameList.indexOf(userSurname, 1)
+//4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
+var position = surnameList.indexOf(userSurname) + 1;
 console.log(position)
 
 
-//4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
