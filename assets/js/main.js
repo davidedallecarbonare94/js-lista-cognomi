@@ -13,7 +13,7 @@ for (var i = 0; i < surnameList.length; i++) {
     //3. stampa la lista ordinata alfabeticamente
     surnameList.sort();
 }
-var position = surnameList.indexOf(userSurname, 1)
+var position = surnameList.indexOf(userSurname, 0)
 console.log(position)
 
 
